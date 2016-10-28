@@ -35,3 +35,8 @@ HEADERS  += \
     popups/popupfin.hpp \
     popups/fenstats.hpp \
     popups/fenstyle.hpp
+
+DISTFILES +=
+
+RESOURCES += \
+    resources.qrc

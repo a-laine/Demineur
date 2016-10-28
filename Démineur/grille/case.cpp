@@ -175,23 +175,23 @@ QPixmap* Case::getPixmap(quint8 val)
 		case PT_INT_MINE:
 			p = pixmaps[NON_DEC_VIDE];
 			if(!p)
-				p = *(pixmaps.insert(NON_DEC_VIDE,new QPixmap("Images/caseNonDec.bmp")));
+				p = *(pixmaps.insert(NON_DEC_VIDE,new QPixmap(":/images/caseNonDec.bmp")));
 			break;
 		case DRAPEAU_MINE:
 		case DRAPEAU_VIDE:
 			p = pixmaps[DRAPEAU_VIDE];
 			if(!p)
-				p = *(pixmaps.insert(DRAPEAU_VIDE,new QPixmap("Images/caseDrapeau.bmp")));
+				p = *(pixmaps.insert(DRAPEAU_VIDE,new QPixmap(":/images/caseDrapeau.bmp")));
 			break;
 		case DEC_MINE:
 			p = pixmaps[DEC_MINE];
 			if(!p)
-				p = *(pixmaps.insert(DEC_MINE,new QPixmap("Images/caseMine.bmp")));
+				p = *(pixmaps.insert(DEC_MINE,new QPixmap(":/images/caseMine.bmp")));
 			break;
 		default://DEC_VIDE
 			p = pixmaps[DEC_VIDE];
 			if(!p)
-				p = *(pixmaps.insert(DEC_VIDE,new QPixmap("Images/caseVide.bmp")));
+				p = *(pixmaps.insert(DEC_VIDE,new QPixmap(":/images/caseVide.bmp")));
 			break;
 	}
 	return p;

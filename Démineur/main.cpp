@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
 	a.setApplicationName("Démineur");
 	a.setOrganizationName("LAINÉ Aurélien");
-	a.setWindowIcon(QIcon("Images/mine.png"));
+	a.setWindowIcon(QIcon(":/images/mine.png"));
 
 	QString locale = QLocale::system().name().section('_', 0, 0);
 	QTranslator translator;
